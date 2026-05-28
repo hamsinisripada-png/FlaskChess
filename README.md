@@ -4,7 +4,7 @@ An interactive, web-based chess application featuring a custom-built, optimized 
 
 ---
 
-## 🧠 AI Engine Architecture & Optimization
+## 🧠 AI Engine Architecture & Optimization:
 The AI engine (`chess_engine.py`) evaluates positions using a multi-layered game-tree search pipeline:
 
 * **Positional Evaluation:** Implements static evaluation matrices utilizing **Piece-Square Tables (PSTs)**. The algorithm evaluates material balances and piece positionings (e.g., controlling center squares, discouraging passive king setups).
